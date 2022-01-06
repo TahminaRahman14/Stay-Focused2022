@@ -1,0 +1,102 @@
+body {
+
+    font-family: 'Merriweather', serif;
+
+    font-family: 'Playfair Display', serif;
+
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+
+h1 {
+    font-size: 50px;
+    margin: 0;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 35px;
+    font-weight: 900;
+
+}
+
+p {
+    font-size: 15px;
+}
+
+#different-font {
+
+    font-family: 'Merriweather', serif;
+
+}
+
+.orange-color {
+    color: orange;
+}
+
+.flexible-div {
+    display: flex;
+    margin-bottom: 150px;
+}
+
+.half-width {
+    width: 50%;
+    padding-left: 15%;
+    padding-top: 5%;
+}
+
+.half-width img {
+    width: 80%;
+}
+
+.link-button {
+
+    background-image: linear-gradient(red, orange);
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: 700;
+    border-radius: 5px;
+    color: white;
+}
+
+.space {
+    margin-top: 30px;
+}
+
+#section-two-heading {
+    text-align: center;
+    margin: 0;
+}
+
+
+.border {
+
+    padding-left: 20px;
+    border-left: 4px solid;
+    border-color: orangered;
+
+}
+
+.blue-color {
+    color: rgb(3, 3, 59);
+}
+
+.section-two-card {
+
+    width: 20%;
+    padding: 10px 40px;
+    background-color: pink;
+    border-radius: 10px;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+img {
+    width: 60%;
+}
+
+.section-two-padding {
+    margin-left: 20%;
+    margin-right: 10%;
+}

@@ -21,8 +21,12 @@ h2 {
 
 }
 
+h3 {
+    margin: 0;
+}
+
 p {
-    font-size: 15px;
+    font-size: 13px;
 }
 
 #different-font {
@@ -37,7 +41,7 @@ p {
 
 .flexible-div {
     display: flex;
-    margin-bottom: 150px;
+    margin-bottom: 50px;
 }
 
 .half-width {
@@ -73,27 +77,62 @@ p {
 .border {
 
     padding-left: 20px;
-    border-left: 4px solid;
-    border-color: orangered;
 
+    position: relative;
+
+}
+
+.border:after {
+    content: " ";
+    position: absolute;
+    border-left: 4px orangered solid;
+    top: 15%;
+    left: 0;
+    height: 75%;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 .blue-color {
     color: rgb(3, 3, 59);
 }
 
-.section-two-card {
+#section-two-card {
 
-    width: 20%;
-    padding: 10px 40px;
+    width: 30%;
+    height: 30%;
+    padding: 5px 20px;
+    background-color: rgb(215, 212, 224);
+    border-radius: 20px;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+#section-two-card1 {
+
+    width: 30%;
+    height: 30%;
+    padding: 5px 20px;
     background-color: pink;
-    border-radius: 10px;
+    border-radius: 20px;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+#section-two-card2 {
+
+    width: 30%;
+    height: 30%;
+    padding: 5px 20px;
+    background-color: rgb(192, 255, 208);
+    border-radius: 20px;
     margin-left: 2%;
     margin-right: 2%;
 }
 
 img {
-    width: 60%;
+    width: 50%;
+    padding-top: 10%;
 }
 
 .section-two-padding {
